@@ -25,7 +25,7 @@ from specpolutils import greff, angle_average
 import reddir
 # from . import reddir
 datadir = os.path.dirname(inspect.getfile(reddir)) + "/data/"
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 
 def specpolrawstokes(infilelist, logfile='salt.log', debug=False):
     """Produces an unnormalized stokes measurement in intensity from
