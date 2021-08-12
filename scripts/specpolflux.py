@@ -30,7 +30,7 @@ from saltsafelog import logging
 from scrunch1d import scrunch1d
 from specpolutils import configmap
 
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 debug = True
 
 def specpolflux(infilelist, logfile='salt.log', debug=False):
