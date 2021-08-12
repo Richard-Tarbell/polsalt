@@ -23,7 +23,7 @@ matplotlib.use('PDF')
 from matplotlib import pyplot as plt
 from matplotlib.ticker import FuncFormatter  
 plt.ioff()
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 import warnings
 #warnings.simplefilter("error")
 
