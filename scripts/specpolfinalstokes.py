@@ -31,7 +31,7 @@ import specpolview as spv
 from specpolutils import datedfile, datedline, angle_average
 from specpolflux import specpolflux
 
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 
 # -------------------------------------
 def specpolfinalstokes(infilelist,logfile='salt.log',debug=False,  \
